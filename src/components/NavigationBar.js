@@ -7,7 +7,7 @@ const NavigationBar = () => {
             <div className="flex space-x-4">
                 <Link to="/" className="hover:bg-blue-700 px-3 py-1 rounded">Home</Link>
                 <Link to="/todo" className="hover:bg-blue-700 px-3 py-1 rounded">Todo</Link>
-                <Link to="/remainder" className="hover:bg-blue-700 px-3 py-1 rounded">Remainder</Link>
+                <Link to="/remainder" className="hover:bg-blue-700 px-3 py-1 rounded">Reminder</Link>
             </div>
         </nav>
     );
