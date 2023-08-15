@@ -2,7 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import NavigationBar from "../src/components/NavigationBar"
 import Todo from "../src/components/Todo";
-import Remainder from "../src/components/Remainder";
+import Reminder from "../src/components/Reminder";
 import Home from "../src/components/Home";
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/todo" element={<Todo />} />
-                <Route path="/remainder" element={<Remainder />} />
+                <Route path="/remainder" element={<Reminder />} />
             </Routes>
         </Router>
     );

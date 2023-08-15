@@ -11,7 +11,7 @@ It demonstrates how today's AI tools like Bing Chat AI can help us boost our pro
 
 It contains 5 components:
 
-- Remainder 
+- Reminder 
 - CalendarModal 
 - Todo 
 - Home 
@@ -25,7 +25,7 @@ React Router is used to enable seamless navigation between different components,
 
 **Remainder**
 
-The "Remainder" allows users to add their reminders in calendars, helping users stay organized and on top of their tasks. 
+The "Reminder" allows users to add their reminders in calendars, helping users stay organized and on top of their tasks. 
 
 **Todo**
 

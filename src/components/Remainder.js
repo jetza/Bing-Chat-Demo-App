@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import CalendarModal from './CalendarModal';
 
-const Remainder = () => {
+const Reminder = () => {
     const [title, setTitle] = useState('');
     const [details, setDetails] = useState('');
     const [date, setDate] = useState('');
@@ -65,4 +65,4 @@ const Remainder = () => {
     );
 };
 
-export default Remainder;
+export default Reminder;
